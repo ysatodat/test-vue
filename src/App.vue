@@ -5,8 +5,11 @@ import HelloWorld from '@/components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <router-link to="/">
+    <img alt="Vue logo" src="./assets/logo.png" />
+  </router-link>
   <HelloWorld msg="Hello Vue 3 + Vite" />
+  <router-link to="/dev">link to dev</router-link>
 </template>
 
 <style>
