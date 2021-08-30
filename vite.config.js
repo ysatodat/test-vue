@@ -1,3 +1,4 @@
+import path from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
@@ -8,5 +9,10 @@ export default defineConfig({
   base: '/test-vue/',
   build: {
     outDir: 'docs',
+  },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, '/src')
+    }
   }
 })
