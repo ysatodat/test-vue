@@ -3,7 +3,7 @@
 
 <template>
   <h1>Here is DEV PAGE</h1>
-  <router-link>back to home</router-link>
+  <router-link to="/">back to home</router-link>
 </template>
 
 <style>
