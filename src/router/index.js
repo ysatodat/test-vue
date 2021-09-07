@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Top from '@/App.vue'
+import Top from '@/views/Top.vue'
 import Dev from '@/views/Dev.vue'
 const routes = [
   {
@@ -9,12 +9,12 @@ const routes = [
   },
   {
       path: '/dev',
-      name: 'dev',
+      name: 'Dev',
       component: Dev,
   },
 ]
 const router = createRouter({
     history: createWebHistory(),
-    routes,
+    routes
 })
 export default router

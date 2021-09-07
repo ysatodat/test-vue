@@ -2,8 +2,7 @@
 </script>
 
 <template>
-  <h1>Here is DEV PAGE</h1>
-  <router-link to="/">back to home</router-link>
+  <h1>Here is DEV Component</h1>
 </template>
 
 <style>
